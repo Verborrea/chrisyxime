@@ -56,7 +56,7 @@
 			<p>¡La invitación oficial llegará pronto!</p>
 		</div>
 		<a
-			href="/"
+			href="/extranjero"
 			class="btn btn-purple max-w-100 flex-col gap-[3px] px-6 pt-5.5 pb-5 text-center sm:px-8 sm:py-6 sm:pt-6"
 		>
 			<p class="leading-[1.2] font-bold sm:text-xl">¿Nos visitas desde otro país?</p>
