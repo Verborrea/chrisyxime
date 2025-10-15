@@ -1,0 +1,89 @@
+@import 'tailwindcss';
+
+@font-face {
+	font-family: 'Derivia';
+	src:
+		url('/fonts/derivia.woff2') format('woff2'),
+		url('/fonts/derivia.woff') format('woff'),
+		url('/fonts/derivia.otf') format('opentype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'CrimsonFoam';
+	src: url('crimson.eot');
+	src:
+		url('crimson.eot?#iefix') format('embedded-opentype'),
+		url('crimson.woff') format('woff'),
+		url('crimson.ttf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+	text-rendering: optimizeLegibility;
+}
+
+@theme {
+	--font-crimson: 'CrimsonFoam', ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif;
+	--font-serif: 'Derivia', ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif;
+	--font-sans:
+		'Poppins', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+		'Segoe UI Symbol', 'Noto Color Emoji';
+
+	--color-black: #0c0a09;
+	--color-green: #9fa890;
+	--color-red: #b79aac;
+	--color-violet: #9f88c2;
+	--color-blue: #bac8e0;
+	--color-purple-light: #b6b7cc;
+	--color-purple: #a7a9c6;
+	--color-purple-dark: #6c6ea1;
+}
+
+@layer base {
+	:root {
+		color: var(--color-black);
+		font-optical-sizing: auto;
+		background-image: url('/pattern.webp');
+		background-repeat: repeat;
+		/* background-size: 655px 436px; */
+		background-color: #eeecea;
+		scroll-behavior: smooth;
+		overflow-x: hidden;
+		font-weight: 300;
+	}
+}
+
+@layer utilities {
+	.mw {
+		@apply mx-auto max-w-300;
+	}
+	.btn {
+		@apply relative flex items-center justify-center gap-2 overflow-hidden rounded-4xl text-center leading-none transition active:scale-95;
+	}
+	.btn > * {
+		@apply relative z-1;
+	}
+	.btn > svg {
+		@apply shrink-0;
+	}
+	.btn-purple {
+		@apply bg-purple text-purple-dark before:bg-purple-light;
+	}
+	.btn::before {
+		position: absolute;
+		top: 0;
+		height: 100%;
+		z-index: 0;
+		content: '';
+		width: 120%;
+		left: -10%;
+		transform: skew(30deg);
+		transition: transform 0.5s cubic-bezier(0.3, 1, 0.8, 1);
+	}
+	.btn:hover::before {
+		transform: skew(30deg) translate3d(50%, 0, 0);
+	}
+	.btn:disabled::before {
+		transform: none;
+	}
+}
