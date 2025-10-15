@@ -5,7 +5,7 @@
 	import mobile_footer from '$lib/mobile_footer.avif';
 	import footer from '$lib/wa.avif';
 
-	import como from '$lib/como.avif';
+	import como from '$lib/como2.avif';
 	import hospedaje from '$lib/hospedaje.avif';
 	import clima from '$lib/clima.avif';
 </script>
