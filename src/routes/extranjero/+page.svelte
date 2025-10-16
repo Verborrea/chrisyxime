@@ -66,11 +66,10 @@
 				</ul>
 				<div class="flex flex-col">
 					<p class="font-bold">Otras opciones:</p>
-					<p>Hoteles boutique o Airbnb en Cayma o Yanahuara.</p>
-				</div>
-				<div class="flex flex-col">
-					<p class="font-bold">Zonas recomendadas de alojamiento:</p>
-					<p>Cayma o Yanahuara.</p>
+					<ul>
+						<li>&bull; Hoteles Boutique</li>
+						<li>&bull; Airbnb: en los distritos de Cayma o Yanahuara</li>
+					</ul>
 				</div>
 			</div>
 			<div class="absolute top-full left-1/2 size-16 -translate-1/2 rounded-full bg-violet"></div>

@@ -35,7 +35,7 @@
 <main class="px-6 sm:text-lg">
 	<div class="flex flex-col items-center gap-16 text-center sm:gap-20">
 		<div class="flex flex-col items-center gap-2 tracking-[0.2em] sm:tracking-[0.4em]">
-			<img src={firma} alt="Firma de los novios" class="mx-auto w-full max-w-70 pb-2" />
+			<img src={firma} alt="Firma de los novios" class="mx-auto w-[50vw] max-w-70 pb-2" />
 			<p class="text-sm sm:text-lg">SÁBADO, 20 DE JUNIO, 2026</p>
 			<p class="text-sm sm:text-lg">AREQUIPA, PERÚ</p>
 		</div>
@@ -47,9 +47,9 @@
 		</div>
 		<Calendar />
 		<div class="flex flex-col items-center gap-4">
-			<p class="max-w-120 text-balance">
-				Guarda la fecha y acompáñanos al viaje <strong class="font-bold"
-					>más importante de nuestras vidas</strong
+			<p class="max-w-130">
+				Guarda la fecha y acompáñanos <wbr /><strong class="font-bold"
+					>al&nbsp;viaje&nbsp;más&nbsp;importante de nuestras vidas</strong
 				>.
 			</p>
 			<div class="h-[1px] w-16 bg-black"></div>
