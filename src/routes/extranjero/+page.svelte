@@ -48,8 +48,8 @@
 			<div class="mx-auto flex h-full max-w-80 flex-col justify-center gap-8 py-18">
 				<h2 class="font-serif text-4xl md:text-5xl">TRANSPORTE</h2>
 				<p>
-					El trayecto desde el aeropuerto hasta el centro de la ciudad toma unos 30 a 40 minutos, ya
-					sea en taxi o usando apps como Uber o Indrive.
+					El trayecto desde el aeropuerto hasta el centro de la ciudad toma 20 minutos, ya sea en
+					taxi o usando apps como Uber o Indrive.
 				</p>
 			</div>
 			<div class="absolute top-full left-1/2 size-16 -translate-1/2 rounded-full bg-purple"></div>
@@ -66,7 +66,7 @@
 				</ul>
 				<div class="flex flex-col">
 					<p class="font-bold">Otras opciones:</p>
-					<p>Hoteles boutique o Airbnb.</p>
+					<p>Hoteles boutique o Airbnb en Cayma o Yanahuara.</p>
 				</div>
 				<div class="flex flex-col">
 					<p class="font-bold">Zonas recomendadas de alojamiento:</p>
