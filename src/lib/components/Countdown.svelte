@@ -36,12 +36,12 @@
 		<p class="font-serif text-6xl">{months}</p>
 		<p class="leading-none">meses</p>
 	</section>
-	<div class="h-24 w-[1px] bg-black"></div>
+	<div class="h-24 w-px bg-black"></div>
 	<section class="flex flex-col items-center pt-2">
 		<p class="font-serif text-6xl">{weeks}</p>
 		<p class="leading-none">semanas</p>
 	</section>
-	<div class="h-24 w-[1px] bg-black"></div>
+	<div class="h-24 w-px bg-black"></div>
 	<section class="flex flex-col items-center pt-2">
 		<p class="font-serif text-6xl">{days}</p>
 		<p class="leading-none">días</p>

@@ -9,7 +9,7 @@
 	import musicos from '$lib/musicos.avif';
 	import escudo from '$lib/escudo.avif';
 	import flor from '$lib/flor.avif';
-	import Calendar from './Calendar.svelte';
+	import Countdown from '$lib/components/Countdown.svelte';
 </script>
 
 <header class="relative z-10">
@@ -45,7 +45,7 @@
 			<p class="pt-3 font-serif text-6xl">DÍA ESPECIAL</p>
 			<p>se acerca...</p>
 		</div>
-		<Calendar />
+		<Countdown />
 		<div class="flex flex-col items-center gap-4">
 			<p class="max-w-130">
 				Guarda la fecha y acompáñanos <wbr /><strong class="font-bold"

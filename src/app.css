@@ -29,14 +29,44 @@
 		'Poppins', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
 		'Segoe UI Symbol', 'Noto Color Emoji';
 
+	--color-paper: #fdfcf0;
 	--color-black: #0c0a09;
 	--color-green: #9fa890;
 	--color-red: #b79aac;
 	--color-violet: #9f88c2;
 	--color-blue: #bac8e0;
-	--color-purple-light: #c6c8e9; /* #b6b7cc; */
+	--color-blue-dark: #4e6792;
+	--color-purple-light: #c6c8e9;
 	--color-purple: #a7a9c6;
 	--color-purple-dark: #6c6ea1;
+
+	--shadow-tenue: inset 0px -4px 12px 0px #0000000d;
+}
+
+@layer base {
+	:root {
+		color: var(--color-black);
+		background-color: var(--color-purple-light);
+	}
+	:root::after {
+		content: '';
+		position: fixed;
+		inset: 0;
+		background: radial-gradient(ellipse, transparent 80%, rgb(0 0 0 / 20%) 100%);
+		pointer-events: none;
+	}
+}
+
+@layer components {
+	.responsive-text {
+		@apply text-sm md:text-base lg:text-lg;
+	}
+	.input {
+		@apply w-full rounded-lg bg-white px-4 py-2 outline-none;
+		&:focus {
+			box-shadow: 0 0 0 4px #ffb7009d;
+		}
+	}
 }
 
 /* 

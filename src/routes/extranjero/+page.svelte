@@ -1,5 +1,5 @@
 <script>
-	import header from '$lib/header.avif';
+	import escudo from '$lib/assets/escudo.avif';
 	import firma from '$lib/firma_morada.avif';
 
 	import mobile_footer from '$lib/mobile_footer.avif';
@@ -13,7 +13,7 @@
 <header class="relative z-10">
 	<div class="h-20 bg-purple-light lg:h-28"></div>
 	<img
-		src={header}
+		src={escudo}
 		alt="Escudo de los novios"
 		class="absolute top-3.5 left-1/2 max-w-24 -translate-x-1/2 rounded-[100%] bg-purple-light p-4 md:top-5 md:max-w-32 md:p-5"
 	/>
