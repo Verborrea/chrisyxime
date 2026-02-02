@@ -34,10 +34,12 @@
 	--color-red: #b79aac;
 	--color-violet: #9f88c2;
 	--color-blue: #bac8e0;
-	--color-purple-light: #b6b7cc;
+	--color-purple-light: #c6c8e9; /* #b6b7cc; */
 	--color-purple: #a7a9c6;
 	--color-purple-dark: #6c6ea1;
 }
+
+/* 
 
 @layer base {
 	:root {
@@ -45,7 +47,7 @@
 		font-optical-sizing: auto;
 		background-image: url('/pattern.webp');
 		background-repeat: repeat;
-		/* background-size: 655px 436px; */
+		background-size: 655px 436px;
 		background-color: #eeecea;
 		scroll-behavior: smooth;
 		overflow-x: hidden;
@@ -86,4 +88,4 @@
 	.btn:disabled::before {
 		transform: none;
 	}
-}
+} */
