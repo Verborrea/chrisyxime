@@ -8,12 +8,12 @@
 		<img src={ceremonia} alt="Ceremonia Religiosa" class="w-full max-w-sm" />
 	</div>
 	<section class="flex flex-col items-center gap-8 px-6">
-		<div>
+		<div data-aos="fade-up">
 			<h3 class="mb-2 font-bold tracking-widest text-black/50">HORA</h3>
 			<p>1 1 : 3 0&nbsp;&nbsp;&nbsp;A M</p>
 			<p>(Asegúrate de estar 15 minutos antes)</p>
 		</div>
-		<div>
+		<div data-aos="fade-up">
 			<h3 class="mb-2 font-bold tracking-widest text-black/50">LUGAR</h3>
 			<p>Parroquia San Miguel Arcángel</p>
 			<p>(Iglesia de Cayma)</p>

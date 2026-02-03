@@ -2,7 +2,7 @@
 	let { children } = $props();
 </script>
 
-<article class="mx-auto max-w-xl pt-10">
+<article data-aos="fade-up" class="mx-auto max-w-xl pt-10">
 	<div
 		class="relative flex flex-col items-center gap-12 bg-purple-light px-8 py-18 text-center text-purple-black md:py-24"
 	>

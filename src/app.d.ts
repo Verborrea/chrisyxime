@@ -6,8 +6,16 @@ declare global {
 		// interface Locals {}
 		// interface PageData {}
 		// interface PageState {}
-		// interface Platform {}
+		interface Platform {
+			env: {
+				boda: D1Database
+			}
+			cf: CfProperties
+			ctx: ExecutionContext
+			context: ExecutionContext;
+			caches: CacheStorage & { default: Cache };
+		}
 	}
 }
 
-export {};
+export { };

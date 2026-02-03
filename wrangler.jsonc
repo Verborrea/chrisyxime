@@ -6,9 +6,12 @@
 		"directory": ".svelte-kit/cloudflare",
 		"binding": "ASSETS"
 	},
-	"selectors": [
+	"d1_databases": [
 		{
-			"domain": "christianyximena.com"
+			"binding": "boda",
+			"database_name": "boda",
+			"database_id": "a6e849a5-1da9-43f1-aafd-4ff47acce168",
+			"remote": true
 		}
 	]
 }

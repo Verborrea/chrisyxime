@@ -39,7 +39,10 @@
 	});
 </script>
 
-<article class="grid grid-cols-5 items-center justify-center justify-items-center">
+<article
+	data-aos="fade-up"
+	class="grid grid-cols-5 items-center justify-center justify-items-center"
+>
 	<section class="flex flex-col items-center pt-2">
 		<p class="font-serif text-6xl tracking-wider">{displayMonths}</p>
 		<p class="leading-none italic">meses</p>

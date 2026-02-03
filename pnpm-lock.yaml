@@ -11,6 +11,9 @@ importers:
       aos:
         specifier: ^2.3.4
         version: 2.3.4
+      svelte-french-toast:
+        specifier: ^1.2.0
+        version: 1.2.0(svelte@5.49.1)
     devDependencies:
       '@sveltejs/adapter-cloudflare':
         specifier: ^7.2.6
@@ -1204,6 +1207,16 @@ packages:
       svelte: ^4.0.0 || ^5.0.0-next.0
       typescript: '>=5.0.0'
 
+  svelte-french-toast@1.2.0:
+    resolution: {integrity: sha512-5PW+6RFX3xQPbR44CngYAP1Sd9oCq9P2FOox4FZffzJuZI2mHOB7q5gJBVnOiLF5y3moVGZ7u2bYt7+yPAgcEQ==}
+    peerDependencies:
+      svelte: ^3.57.0 || ^4.0.0
+
+  svelte-writable-derived@3.1.1:
+    resolution: {integrity: sha512-w4LR6/bYZEuCs7SGr+M54oipk/UQKtiMadyOhW0PTwAtJ/Ai12QS77sLngEcfBx2q4H8ZBQucc9ktSA5sUGZWw==}
+    peerDependencies:
+      svelte: ^3.2.1 || ^4.0.0-next.1 || ^5.0.0-next.94
+
   svelte@5.49.1:
     resolution: {integrity: sha512-jj95WnbKbXsXXngYj28a4zx8jeZx50CN/J4r0CEeax2pbfdsETv/J1K8V9Hbu3DCXnpHz5qAikICuxEooi7eNQ==}
     engines: {node: '>=18'}
@@ -2186,6 +2199,15 @@ snapshots:
       typescript: 5.9.3
     transitivePeerDependencies:
       - picomatch
+
+  svelte-french-toast@1.2.0(svelte@5.49.1):
+    dependencies:
+      svelte: 5.49.1
+      svelte-writable-derived: 3.1.1(svelte@5.49.1)
+
+  svelte-writable-derived@3.1.1(svelte@5.49.1):
+    dependencies:
+      svelte: 5.49.1
 
   svelte@5.49.1:
     dependencies:

@@ -78,7 +78,7 @@
 		@apply mx-auto max-w-300;
 	}
 	.btn {
-		@apply relative flex cursor-pointer items-center justify-center gap-2 overflow-hidden rounded-full px-8 py-4 text-center leading-none font-semibold tracking-tight transition active:scale-95;
+		@apply relative flex cursor-pointer items-center justify-center gap-2 overflow-hidden rounded-full px-8 py-4 text-center leading-none font-semibold tracking-tight transition active:scale-95 disabled:cursor-not-allowed disabled:opacity-50;
 	}
 	.btn > * {
 		@apply relative z-1;

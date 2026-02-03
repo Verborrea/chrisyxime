@@ -4,7 +4,11 @@
 	import des from '$lib/assets/hero-desktop.png';
 </script>
 
-<article id="hero" class="responsive-text flex flex-col items-center gap-6 pb-16">
+<article
+	id="hero"
+	data-aos="fade-up"
+	class="responsive-text flex flex-col items-center gap-6 pb-16"
+>
 	<picture>
 		<source srcset={cel} media="(max-width: 767px)" />
 		<source srcset={tab} media="(min-width: 768px) and (max-width: 1023px)" />

@@ -8,12 +8,12 @@
 		<img src={recepcion} alt="Recepción" class="w-full max-w-sm" />
 	</div>
 	<section class="flex flex-col items-center gap-8 px-6">
-		<div>
+		<div data-aos="fade-up">
 			<h3 class="mb-2 font-bold tracking-widest text-black/50">HORA</h3>
 			<p>2 : 0 0&nbsp;&nbsp;&nbsp;P M</p>
 			<div class="h-6"></div>
 		</div>
-		<div>
+		<div data-aos="fade-up">
 			<h3 class="mb-2 font-bold tracking-widest text-black/50">LUGAR</h3>
 			<p>Molino Blanco</p>
 			<p>Callejón Ripacha 137-177, San Lázaro</p>

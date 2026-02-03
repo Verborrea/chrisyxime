@@ -2,7 +2,7 @@
 	import escudo from '$lib/assets/escudo.avif';
 </script>
 
-<footer class="relative drop-shadow-xl">
+<footer class="relative">
 	<div class="deco-top"></div>
 	<article
 		class="flex flex-col items-center gap-10 bg-purple-light px-6 pt-20 pb-20 text-center text-purple-dark sm:text-lg md:gap-20"
@@ -35,6 +35,9 @@
 </footer>
 
 <style>
+	footer {
+		filter: drop-shadow(0px -4px 8px #00000030);
+	}
 	.deco-top {
 		background-image: url("data:image/svg+xml;utf8,<svg width='48' height='20' viewBox='0 0 48 20' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M24 0C12 0 12 20 0 20H48C36 20 36 0 24 0Z' fill='%23c6c8e9'/></svg>");
 		background-repeat: repeat-x;
