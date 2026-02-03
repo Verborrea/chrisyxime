@@ -29,7 +29,7 @@
 </header>
 <div class="deco-top"></div>
 <main class="px-6 py-24 text-center md:text-lg">
-	<div class="mw grid max-w-[1200px] gap-12 md:grid-cols-2 md:gap-24">
+	<div class="mw grid max-w-300 gap-12 md:grid-cols-2 md:gap-24">
 		<article class="relative border border-black px-6">
 			<div class="mx-auto flex h-full max-w-80 flex-col justify-center gap-8 py-18">
 				<img src={como} alt="Como llegar" />
@@ -87,7 +87,7 @@
 						<p class="font-bold">De día:</p>
 						<p>Sol fuerte. Usar bloqueador, gafas y sombrero.</p>
 					</div>
-					<div class="h-24 w-[1px] bg-black"></div>
+					<div class="h-24 w-px bg-black"></div>
 					<div class="flex flex-col">
 						<p class="font-bold">De noche:</p>
 						<p>Puede refrescar bastante. Traer abrigo.</p>

@@ -44,12 +44,12 @@
 					>al&nbsp;viaje&nbsp;más&nbsp;importante de nuestras vidas</strong
 				>.
 			</p>
-			<div class="h-[1px] w-16 bg-black"></div>
+			<div class="h-px w-16 bg-black"></div>
 			<p>¡La invitación oficial llegará pronto!</p>
 		</div>
 		<a
 			href="/extranjero"
-			class="btn btn-purple max-w-100 flex-col gap-[3px] px-6 pt-5.5 pb-5 text-center sm:px-8 sm:py-6 sm:pt-6"
+			class="btn btn-purple max-w-100 flex-col gap-0.75 px-6 pt-5.5 pb-5 text-center sm:px-8 sm:py-6 sm:pt-6"
 		>
 			<p class="leading-[1.2] font-bold sm:text-xl">¿Nos visitas desde otro país?</p>
 			<p class="text-sm leading-[1.3] sm:text-base md:text-lg">
