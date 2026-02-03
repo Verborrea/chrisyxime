@@ -1,5 +1,6 @@
 <script>
 	import rings from '$lib/assets/rings.avif';
+	import date from '$lib/assets/date.svg';
 </script>
 
 <article id="info" class="responsive-text flex flex-col items-center gap-16 px-6 text-center">
@@ -16,8 +17,11 @@
 		</div>
 	</section>
 	<img src={rings} alt="Anillos de boda" class="w-full max-w-187.5" />
-	<p>Tenemos el agrado de invitarte a nuestra boda que se celebrará el próximo:</p>
-	<div class="space-y-6">
+	<p class="max-w-120">
+		Tenemos el agrado de invitarte a nuestra boda que se celebrará el próximo:
+	</p>
+	<img src={date} alt="20 de Junio del 2026" class="w-full max-w-120" />
+	<div>
 		<p class="italic">
 			Acompáñanos al <strong>viaje más importante</strong>
 			de nuestras vidas.

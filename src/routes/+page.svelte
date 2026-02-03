@@ -7,6 +7,7 @@
 	import NoKids from '$lib/components/NoKids.svelte';
 	import MesaRegalos from '$lib/components/MesaRegalos.svelte';
 	import Confirma from '$lib/components/Confirma.svelte';
+	import Countdown from '$lib/components/Countdown.svelte';
 </script>
 
 <Hero />
@@ -14,10 +15,19 @@
 
 <div class="mx-auto size-16 rounded-full bg-green"></div>
 
-<section class="grid gap-8 lg:grid-cols-2">
+<section class="mw grid gap-12 px-6 lg:grid-cols-2">
 	<Ceremonia />
 	<Recepcion />
 </section>
+
+<article class="mx-auto flex max-w-2xl flex-col gap-12 px-6 text-center md:gap-18 md:text-lg">
+	<section>
+		<p>Pronto diremos</p>
+		<p class="font-bold">sí, acepto</p>
+	</section>
+	<Countdown />
+	<p>Algunas consideraciones para este día tan especial:</p>
+</article>
 
 <DressCode />
 <NoKids />

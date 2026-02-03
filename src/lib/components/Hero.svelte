@@ -9,7 +9,7 @@
 		<source srcset={cel} media="(max-width: 767px)" />
 		<source srcset={tab} media="(min-width: 768px) and (max-width: 1023px)" />
 		<source srcset={des} media="(min-width: 1024px)" />
-		<img src={des} alt="Catedral de arequipa junto con una palméra." class="w-full max-w-280" />
+		<img src={des} alt="Catedral de arequipa junto con una palméra." class="w-full max-w-300" />
 	</picture>
 	<blockquote class="max-w-80 px-6 text-center text-pretty italic md:max-w-100 lg:max-w-md">
 		"Tres cosas durarán para siempre: la fe, la esperanza y el amor; y la mayor de las tres es el

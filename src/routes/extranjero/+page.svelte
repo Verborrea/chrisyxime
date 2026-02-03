@@ -1,13 +1,13 @@
 <script>
 	import escudo from '$lib/assets/escudo.avif';
-	import firma from '$lib/firma_morada.avif';
+	import firma from '$lib/extranjero/firma_morada.avif';
 
-	import mobile_footer from '$lib/mobile_footer.avif';
-	import footer from '$lib/wa.avif';
+	import mobile_footer from '$lib/extranjero/mobile_footer.avif';
+	import footer from '$lib/extranjero/wa.avif';
 
-	import como from '$lib/como2.avif';
-	import hospedaje from '$lib/hospedaje.avif';
-	import clima from '$lib/clima.avif';
+	import como from '$lib/extranjero/como2.avif';
+	import hospedaje from '$lib/extranjero/hospedaje.avif';
+	import clima from '$lib/extranjero/clima.avif';
 </script>
 
 <header class="relative z-10">

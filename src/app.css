@@ -32,13 +32,18 @@
 	--color-paper: #fdfcf0;
 	--color-black: #0c0a09;
 	--color-green: #9fa890;
-	--color-red: #b79aac;
+	--color-green-dark: #63714e;
+	--color-green-dark-2: #788e56;
+	--color-red-light: #d380ae;
+	--color-red: #d599bc;
+	--color-red-dark: #663852;
 	--color-violet: #9f88c2;
 	--color-blue: #bac8e0;
 	--color-blue-dark: #4e6792;
 	--color-purple-light: #c6c8e9;
-	--color-purple: #a7a9c6;
-	--color-purple-dark: #6c6ea1;
+	--color-purple: rgb(174, 172, 226);
+	--color-purple-dark: #626497;
+	--color-purple-black: #4a4b6e;
 
 	--shadow-tenue: inset 0px -4px 12px 0px #0000000d;
 }
@@ -52,7 +57,7 @@
 		content: '';
 		position: fixed;
 		inset: 0;
-		background: radial-gradient(ellipse, transparent 80%, rgb(0 0 0 / 20%) 100%);
+		background: radial-gradient(ellipse, transparent 80%, rgb(0 0 0 / 25%) 100%);
 		pointer-events: none;
 	}
 }
@@ -62,26 +67,13 @@
 		@apply text-sm md:text-base lg:text-lg;
 	}
 	.input {
-		@apply w-full rounded-lg bg-white px-4 py-2 outline-none;
-		&:focus {
+		@apply w-full rounded-lg bg-white px-4 py-2.5 outline-none;
+		&:hover {
 			box-shadow: 0 0 0 4px #ffb7009d;
 		}
-	}
-}
-
-/* 
-
-@layer base {
-	:root {
-		color: var(--color-black);
-		font-optical-sizing: auto;
-		background-image: url('/pattern.webp');
-		background-repeat: repeat;
-		background-size: 655px 436px;
-		background-color: #eeecea;
-		scroll-behavior: smooth;
-		overflow-x: hidden;
-		font-weight: 300;
+		&:focus {
+			box-shadow: 0 0 0 4px #ffb700;
+		}
 	}
 }
 
@@ -90,7 +82,7 @@
 		@apply mx-auto max-w-300;
 	}
 	.btn {
-		@apply relative flex items-center justify-center gap-2 overflow-hidden rounded-4xl text-center leading-none transition active:scale-95;
+		@apply relative flex cursor-pointer items-center justify-center gap-2 overflow-hidden rounded-full px-8 py-4 text-center leading-none font-semibold tracking-tight transition active:scale-95;
 	}
 	.btn > * {
 		@apply relative z-1;
@@ -100,6 +92,12 @@
 	}
 	.btn-purple {
 		@apply bg-purple text-purple-dark before:bg-purple-light;
+	}
+	.btn-red {
+		@apply bg-red-light text-red-dark before:bg-red;
+	}
+	.btn-green {
+		@apply bg-green-dark text-white before:bg-green-dark-2;
 	}
 	.btn::before {
 		position: absolute;
@@ -118,4 +116,21 @@
 	.btn:disabled::before {
 		transform: none;
 	}
-} */
+}
+
+/* 
+
+@layer base {
+	:root {
+		color: var(--color-black);
+		font-optical-sizing: auto;
+		background-image: url('/pattern.webp');
+		background-repeat: repeat;
+		background-size: 655px 436px;
+		background-color: #eeecea;
+		scroll-behavior: smooth;
+		overflow-x: hidden;
+		font-weight: 300;
+	}
+}
+*/

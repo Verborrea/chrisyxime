@@ -1,25 +1,17 @@
 <script>
-	import header from '$lib/header.avif';
+	import header from '$lib/assets/escudo.avif';
 
 	import cel from '$lib/hero/cel.avif';
 	import tab from '$lib/hero/tab.avif';
 	import comp from '$lib/hero/comp.avif';
 
-	import firma from '$lib/firma.avif';
-	import musicos from '$lib/musicos.avif';
-	import escudo from '$lib/escudo.avif';
-	import flor from '$lib/flor.avif';
+	import firma from '$lib/extranjero/firma.avif';
+	import musicos from '$lib/extranjero/musicos.avif';
+	import escudo from '$lib/extranjero/escudo.avif';
+	import flor from '$lib/extranjero/flor.avif';
 	import Countdown from '$lib/components/Countdown.svelte';
 </script>
 
-<header class="relative z-10">
-	<div class="h-20 bg-purple-light lg:h-28"></div>
-	<img
-		src={header}
-		alt="Escudo de los novios"
-		class="absolute top-3.5 left-1/2 max-w-24 -translate-x-1/2 rounded-[100%] bg-purple-light p-4 md:top-5 md:max-w-32 md:p-5"
-	/>
-</header>
 <article id="hero" class="overflow-hidden pt-32 pb-18 sm:pt-48 md:pt-24 lg:-mt-18 lg:pt-0">
 	<picture>
 		<source srcset={cel} media="(max-width: 767px)" />
@@ -32,7 +24,7 @@
 		/>
 	</picture>
 </article>
-<main class="px-6 sm:text-lg">
+<main class="px-6 pb-12 sm:text-lg">
 	<div class="flex flex-col items-center gap-16 text-center sm:gap-20">
 		<div class="flex flex-col items-center gap-2 tracking-[0.2em] sm:tracking-[0.4em]">
 			<img src={firma} alt="Firma de los novios" class="mx-auto w-[50vw] max-w-70 pb-2" />
