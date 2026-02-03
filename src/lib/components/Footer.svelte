@@ -5,7 +5,7 @@
 <footer class="relative drop-shadow-xl">
 	<div class="deco-top"></div>
 	<article
-		class="flex flex-col items-center gap-20 bg-purple-light px-6 pt-20 pb-20 text-center text-purple-dark sm:text-lg"
+		class="flex flex-col items-center gap-10 bg-purple-light px-6 pt-20 pb-20 text-center text-purple-dark sm:text-lg md:gap-20"
 	>
 		<div class="h-px w-30 bg-purple-dark"></div>
 		<p class="max-w-sm italic">Porque el amor se celebra mejor en compañía, los esperamos.</p>

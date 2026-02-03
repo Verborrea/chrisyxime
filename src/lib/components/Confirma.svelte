@@ -44,7 +44,15 @@
 			</div>
 		</div>
 		<form action="" class="flex w-full max-w-104 flex-col gap-4 text-start">
-			<input type="text" class="input" placeholder="Nombres y Apellidos" bind:value={name} />
+			<input
+				type="text"
+				class="input"
+				id="name"
+				name="name"
+				placeholder="Nombres y Apellidos"
+				autocomplete="name"
+				bind:value={name}
+			/>
 			{#if asistente}
 				<input
 					type="text"

@@ -18,6 +18,7 @@
 		"@sveltejs/kit": "^2.50.1",
 		"@sveltejs/vite-plugin-svelte": "^6.2.4",
 		"@tailwindcss/vite": "^4.1.18",
+		"@types/aos": "^3.0.7",
 		"prettier": "^3.8.1",
 		"prettier-plugin-svelte": "^3.4.1",
 		"prettier-plugin-tailwindcss": "^0.7.2",
@@ -28,5 +29,8 @@
 		"vite": "^7.3.1",
 		"vite-plugin-devtools-json": "^1.0.0",
 		"wrangler": "^4.62.0"
+	},
+	"dependencies": {
+		"aos": "^2.3.4"
 	}
 }

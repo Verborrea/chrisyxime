@@ -5,5 +5,10 @@
 	"assets": {
 		"directory": ".svelte-kit/cloudflare",
 		"binding": "ASSETS"
-	}
+	},
+	"selectors": [
+		{
+			"domain": "christianyximena.com"
+		}
+	]
 }

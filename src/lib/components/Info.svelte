@@ -3,7 +3,7 @@
 	import date from '$lib/assets/date.svg';
 </script>
 
-<article id="info" class="responsive-text flex flex-col items-center gap-16 px-6 text-center">
+<article id="info" class="flex flex-col items-center gap-16 px-6 text-center md:text-lg">
 	<p>Con la bendición de Dios y nuestros padres:</p>
 	<section class="flex items-center gap-4 sm:gap-8 md:gap-16">
 		<div class="space-y-1.5 leading-[1.2]">
@@ -21,11 +21,13 @@
 		Tenemos el agrado de invitarte a nuestra boda que se celebrará el próximo:
 	</p>
 	<img src={date} alt="20 de Junio del 2026" class="w-full max-w-120" />
-	<div>
-		<p class="italic">
+	<div class="space-y-2">
+		<p class="text-balance italic">
 			Acompáñanos al <strong>viaje más importante</strong>
 			de nuestras vidas.
 		</p>
-		<p class="italic">(Agradeceremos confirmar su asistencia al final de esta página).</p>
+		<p class="text-balance italic">
+			(Agradeceremos confirmar su asistencia al final de esta página).
+		</p>
 	</div>
 </article>
