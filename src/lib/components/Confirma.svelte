@@ -52,7 +52,7 @@
 			</div>
 			<div class="h-20 w-px bg-black/30"></div>
 			<div class="flex flex-col items-center">
-				<p class="mb-3 max-w-40 text-sm italic">Invitados que viven en el Perú</p>
+				<p class="mb-3 max-w-40 text-sm italic">Invitados que viven en Perú</p>
 				<p>Hasta el</p>
 				<p class="font-bold">20 de abril del 2026</p>
 			</div>

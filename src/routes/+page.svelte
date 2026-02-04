@@ -29,7 +29,7 @@
 	<article class="mx-auto flex max-w-2xl flex-col gap-12 px-6 text-center md:gap-18 md:text-lg">
 		<section>
 			<p>Pronto diremos</p>
-			<p class="font-bold">sí, acepto</p>
+			<p class="font-bold">Sí, acepto.</p>
 		</section>
 		<Countdown />
 		<p>Algunas consideraciones para este día tan especial:</p>

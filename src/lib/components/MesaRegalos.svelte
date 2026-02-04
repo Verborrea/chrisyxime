@@ -43,6 +43,7 @@
 				<section class="space-y-2">
 					<h3 class="font-bold">N° Cuenta República Dominicana</h3>
 					<p>Cuenta Corriente Banco Popular: 787283555</p>
+					<p>Cuenta de Ahorro en Dólares Banco Popular Dominicano: 828199901</p>
 				</section>
 				<section class="space-y-2">
 					<h3 class="font-bold">N° Cuenta España</h3>
