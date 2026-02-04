@@ -86,13 +86,13 @@
 
 			{#if puedeLlevarExtra}
 				<div transition:slide class="flex flex-col gap-4">
-					<Checkbox bind:checked={asistente} label="Llevaré a un asistente." />
+					<Checkbox bind:checked={asistente} label="Llevaré a un invitado." />
 					{#if asistente}
 						<input
 							type="text"
 							name="asistente_name"
 							class="input"
-							placeholder="Nombre del Asistente"
+							placeholder="Nombre del Invitado"
 							bind:value={asistente_name}
 							required
 							transition:fade
