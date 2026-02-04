@@ -12,11 +12,11 @@
 
 @font-face {
 	font-family: 'CrimsonFoam';
-	src: url('crimson.eot');
+	src: url('/fonts/crimson.eot');
 	src:
-		url('crimson.eot?#iefix') format('embedded-opentype'),
-		url('crimson.woff') format('woff'),
-		url('crimson.ttf') format('truetype');
+		url('/fonts/crimson.eot?#iefix') format('embedded-opentype'),
+		url('/fonts/crimson.woff') format('woff'),
+		url('/fonts/crimson.ttf') format('truetype');
 	font-style: normal;
 	font-weight: normal;
 	text-rendering: optimizeLegibility;

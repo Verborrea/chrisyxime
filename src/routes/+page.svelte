@@ -29,8 +29,10 @@
 	<p>Algunas consideraciones para este día tan especial:</p>
 </article>
 
-<DressCode />
-<NoKids />
+<div class="px-6">
+	<DressCode />
+</div>
+<div class="px-6"><NoKids /></div>
 
 <MesaRegalos />
 <Confirma />

@@ -7,7 +7,7 @@
 	<article
 		class="flex flex-col items-center gap-10 bg-purple-light px-6 pt-20 pb-20 text-center text-purple-dark sm:text-lg md:gap-20"
 	>
-		<div class="h-px w-30 bg-purple-dark"></div>
+		<div class="h-px w-30 bg-purple-dark/50"></div>
 		<p class="max-w-sm italic">Porque el amor se celebra mejor en compañía, los esperamos.</p>
 		<section class="flex flex-col items-center gap-4">
 			<img src={escudo} alt="Escudo de los novios" class="max-w-24" />

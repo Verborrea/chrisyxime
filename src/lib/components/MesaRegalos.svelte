@@ -6,16 +6,20 @@
 </script>
 
 <div class="px-6">
-	<img src={bun} alt="Moño de Regalo" class="mx-auto w-90.5" />
+	<img src={bun} alt="Moño de Regalo" class="mx-auto w-55" />
 </div>
 
 <div class="mx-auto max-w-3xl px-6">
 	<BlackBox>
 		<div class="flex flex-col items-center gap-10 px-6 py-12">
-			<img src={mesaRegalos} alt="Mesa de Regalos" class="mt-6 w-90.5 md:mt-10" />
+			<img
+				src={mesaRegalos}
+				alt="Mesa de Regalos"
+				class="mt-6 w-full max-w-56 md:mt-10 md:max-w-85"
+			/>
 			<div class="space-y-1.5">
 				<p class="font-bold text-balance">Tu presencia es nuestro mayor regalo.</p>
-				<p>
+				<p class="max-w-md">
 					Sin embargo, si deseas hacernos un obsequio, te compartimos el link de nuestra mesa de
 					regalos virtual
 				</p>
@@ -26,7 +30,7 @@
 				rel="noopener noreferrer"
 				class="btn btn-purple"><span>Ver Mesa de regalos virtual</span></a
 			>
-			<p>
+			<p class="max-w-md">
 				Si prefieres un detalle práctico, puedes hacerlo a través de las siguientes cuentas
 				bancarias:
 			</p>

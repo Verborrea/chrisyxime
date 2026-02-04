@@ -9,7 +9,7 @@
 
 <div class="checkbox-container">
 	<input type="checkbox" {id} name={id} bind:checked class="sr-only" {...props} />
-	<label for={id} class="checkbox-wrapper shrink-0 items-center">
+	<label for={id} class="checkbox-wrapper shrink-0 items-center gap-2">
 		<div class="custom-box {checked ? 'checked' : ''}">
 			{#if checked}
 				<svg
@@ -24,30 +24,14 @@
 				</svg>
 			{/if}
 		</div>
-		<p class="text-pretty">{label}</p>
+		<p class="text-sm text-pretty md:text-base">{label}</p>
 	</label>
 </div>
 
 <style>
-	:root {
-		--light-blue: #e1f5fe;
-	}
-
 	.checkbox-container {
 		display: flex;
 		align-items: center;
-	}
-
-	/* Ocultar el input original pero mantener accesibilidad */
-	.sr-only {
-		position: absolute;
-		width: 1px;
-		height: 1px;
-		padding: 0;
-		margin: -1px;
-		overflow: hidden;
-		clip: rect(0, 0, 0, 0);
-		border: 0;
 	}
 
 	.checkbox-wrapper {
@@ -60,9 +44,8 @@
 	.custom-box {
 		width: 24px;
 		height: 24px;
-		flex-shrink: 0; /* ¡VITAL! Evita que el checkbox se aplaste cuando el texto es largo */
+		flex-shrink: 0;
 		border-radius: 6px;
-		margin-right: 12px;
 		display: flex;
 		align-items: center;
 		justify-content: center;
