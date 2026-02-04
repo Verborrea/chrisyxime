@@ -55,5 +55,20 @@
 	{ "id": 54, "nombre": "Cesar Cabrera", "extranjero": true, "plusOne": false },
 	{ "id": 55, "nombre": "Jose De Los Santos", "extranjero": true, "plusOne": false },
 	{ "id": 56, "nombre": "Jorge Santamaria", "extranjero": true, "plusOne": true },
-	{ "id": 57, "nombre": "Miguel Luque", "extranjero": true, "plusOne": true }
+	{ "id": 57, "nombre": "Miguel Luque", "extranjero": true, "plusOne": true },
+
+	{ "id": 57, "nombre": "Maika Robledo", "extranjero": true, "plusOne": false },
+	{ "id": 58, "nombre": "Rodrigo Baculima", "extranjero": true, "plusOne": false },
+	{ "id": 59, "nombre": "Giulio Antonelli", "extranjero": true, "plusOne": true },
+	{ "id": 60, "nombre": "Kevin Gonzalzez", "extranjero": true, "plusOne": false },
+	{ "id": 61, "nombre": "Ernest De Jesus", "extranjero": true, "plusOne": false },
+	{ "id": 62, "nombre": "Stefany Vargas", "extranjero": true, "plusOne": false },
+	{ "id": 63, "nombre": "Leyanira Córdova", "extranjero": true, "plusOne": false },
+	{ "id": 64, "nombre": "Daniela Huaycochea", "extranjero": true, "plusOne": false },
+	{ "id": 65, "nombre": "Diego Gutiérrez", "extranjero": true, "plusOne": false },
+	{ "id": 66, "nombre": "Angel Campos", "extranjero": true, "plusOne": false },
+	{ "id": 67, "nombre": "Cristian Pache", "extranjero": true, "plusOne": false },
+	{ "id": 68, "nombre": "Tatiana Zhiveleva", "extranjero": true, "plusOne": true },
+	{ "id": 69, "nombre": "Elizabeth Chávez", "extranjero": true, "plusOne": false },
+	{ "id": 70, "nombre": "José Manuel Zegarra", "extranjero": true, "plusOne": false }
 ]
