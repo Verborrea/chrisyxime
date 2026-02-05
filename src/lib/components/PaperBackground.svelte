@@ -33,12 +33,10 @@
 		min-height: 50vh;
 		background-color: var(--color-paper, #fdfcf0);
 
-		/* 3. La máscara solo se encarga de recortar el papel */
 		-webkit-mask-image: radial-gradient(52px 66px at 50% 0%, transparent 98%, black 100%);
 		mask-image: radial-gradient(52px 66px at 50% 0%, transparent 98%, black 100%);
 
-		/* Aseguramos que el contenido no quede pegado al recorte */
-		padding-top: 65px;
+		padding-top: 48px;
 	}
 
 	/* 4. La textura se mantiene fija para ese efecto de "papel infinito" */
