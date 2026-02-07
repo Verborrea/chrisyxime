@@ -1,5 +1,6 @@
 <section
 	class="grid w-full max-w-lg grid-cols-[1fr_1px_1fr] items-center justify-items-center text-sm sm:text-base md:text-lg"
+	data-aos="fade-up"
 >
 	<div class="space-y-1.5 leading-[1.2]">
 		<p class="moises relative">Moisés Sang Fung</p>

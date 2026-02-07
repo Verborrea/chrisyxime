@@ -24,6 +24,7 @@
 			target="_blank"
 			rel="noopener noreferrer"
 			class="btn btn-purple"
+			data-aos="fade-up"
 		>
 			<span><span class="font-normal">Ver en</span> Google Maps</span>
 		</a>

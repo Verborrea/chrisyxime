@@ -5,9 +5,11 @@
 </script>
 
 <article id="info" class="flex flex-col items-center gap-12 text-center sm:gap-16 md:text-lg">
-	<p class="mx-6 text-balance italic">Con la bendición de Dios y nuestros padres:</p>
+	<p class="mx-6 text-balance italic" data-aos="fade-up">
+		Con la bendición de Dios y nuestros padres:
+	</p>
 	<Papas />
-	<div class="px-6">
+	<div class="px-6" data-aos="fade-up">
 		<img src={rings} alt="Anillos de boda" class="w-full max-w-150" />
 	</div>
 	<p data-aos="fade-up" class="mx-6 max-w-120">
