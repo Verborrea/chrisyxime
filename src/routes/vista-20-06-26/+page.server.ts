@@ -28,7 +28,7 @@ export const load: PageServerLoad = async ({ platform }) => {
 	// 3. Calcular estadísticas rápidas
 	const stats = {
 		total: invitadosStatic.length,
-		confirmados: respuestas.filter((r: any) => r.asistira === 1).length,
+		confirmados: respuestas.filter((r: any) => r.asistira === 1).length as number,
 		pendientes: invitadosStatic.length - respuestas.length,
 		asistentesTotales: respuestas.filter((r: any) => r.asistira === 1).length +
 			respuestas.filter((r: any) => r.acompañante_nombre).length

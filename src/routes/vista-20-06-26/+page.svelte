@@ -1,6 +1,7 @@
 <script lang="ts">
 	let { data } = $props();
 	const { invitados, stats } = $derived(data);
+	const noAsistiran = $derived(stats.total - stats.confirmados - stats.pendientes);
 </script>
 
 <div class="min-h-screen bg-gray-50 p-6">
@@ -14,6 +15,10 @@
 			<div class="rounded-lg border-t-4 border-green-500 bg-white p-4 shadow-sm">
 				<p class="text-xs font-bold text-gray-400 uppercase">Confirmados</p>
 				<p class="text-2xl font-bold">{stats.confirmados}</p>
+			</div>
+			<div class="rounded-lg border-t-4 border-red-500 bg-white p-4 shadow-sm">
+				<p class="text-xs font-bold text-gray-400 uppercase">No Asistiran</p>
+				<p class="text-2xl font-bold">{noAsistiran}</p>
 			</div>
 			<div class="rounded-lg border-t-4 border-blue-500 bg-white p-4 shadow-sm">
 				<p class="text-xs font-bold text-gray-400 uppercase">Sillas Totales</p>
@@ -32,8 +37,8 @@
 				<thead>
 					<tr class="bg-gray-100 text-xs text-gray-600 uppercase">
 						<th class="px-6 py-4">Invitado</th>
-						<th class="px-6 py-4 text-center">Pase Extra</th>
 						<th class="px-6 py-4">Estado</th>
+						<th class="px-6 py-4 text-center">Pase Extra</th>
 						<th class="px-6 py-4 text-center">Ceremonia</th>
 						<th class="px-6 py-4 text-center">Recepción</th>
 						<th class="px-6 py-4">Acompañante</th>
@@ -44,10 +49,31 @@
 					{#each invitados as item}
 						<tr class="transition-colors hover:bg-gray-50">
 							<td class="px-6 py-4">
-								<p class="font-medium text-gray-900">{item.nombre}</p>
+								<p class="mb-1 text-sm leading-[1.2] font-medium text-gray-900">{item.nombre}</p>
 								<span class="rounded bg-gray-200 px-2 py-0.5 text-[10px] text-gray-600">
-									{item.extranjero ? '🌍 Extranjero' : '🏠 Nacional'}
+									{#if item.extranjero}
+										🌍&nbsp;Extranjero
+									{:else}
+										🏠 Nacional
+									{/if}
 								</span>
+							</td>
+
+							<td class="px-6 py-4">
+								{#if !item.respondio}
+									<span
+										class="rounded-full bg-yellow-100 px-3 py-1 text-xs font-bold text-yellow-600"
+										>Pendiente</span
+									>
+								{:else if item.asistira}
+									<span class="rounded-full bg-green-100 px-3 py-1 text-xs font-bold text-green-600"
+										>Asistirá</span
+									>
+								{:else}
+									<span class="rounded-full bg-red-100 px-3 py-1 text-xs font-bold text-red-600"
+										>No&nbsp;Asistirá</span
+									>
+								{/if}
 							</td>
 							<td class="px-6 py-4 text-center">
 								{#if item.plusOne}
@@ -62,22 +88,6 @@
 									>
 										Individual
 									</span>
-								{/if}
-							</td>
-							<td class="px-6 py-4">
-								{#if !item.respondio}
-									<span
-										class="rounded-full bg-yellow-100 px-3 py-1 text-xs font-bold text-yellow-600"
-										>Pendiente</span
-									>
-								{:else if item.asistira}
-									<span class="rounded-full bg-green-100 px-3 py-1 text-xs font-bold text-green-600"
-										>Asistirá</span
-									>
-								{:else}
-									<span class="rounded-full bg-red-100 px-3 py-1 text-xs font-bold text-red-600"
-										>No Asiste</span
-									>
 								{/if}
 							</td>
 							<td class="px-6 py-4 text-center">{item.ceremonia ? '✅' : '❌'}</td>

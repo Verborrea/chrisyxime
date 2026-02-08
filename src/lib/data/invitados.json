@@ -44,7 +44,7 @@
 	{ "id": 43, "nombre": "Angel Suazo", "extranjero": true, "plusOne": false },
 	{ "id": 44, "nombre": "Nicole Polanco", "extranjero": true, "plusOne": false },
 	{ "id": 45, "nombre": "Natascha Suero", "extranjero": true, "plusOne": true },
-	{ "id": 46, "nombre": "Joan Castillo", "extranjero": true, "plusOne": false },
+	{ "id": 46, "nombre": "Joan Castillo", "extranjero": true, "plusOne": true },
 	{ "id": 47, "nombre": "Euclides Garrido", "extranjero": true, "plusOne": false },
 	{ "id": 48, "nombre": "Diego Nouel", "extranjero": true, "plusOne": false },
 	{ "id": 49, "nombre": "Anisha Almonte", "extranjero": true, "plusOne": false },
