@@ -149,7 +149,7 @@
 				></div>
 			</article>
 		</div>
-		<a href="/" class="mt-24 flex items-center justify-center gap-2 hover:underline">
+		<a href="/save-the-date" class="mt-24 flex items-center justify-center gap-2 hover:underline">
 			<svg
 				width="20"
 				height="20"
